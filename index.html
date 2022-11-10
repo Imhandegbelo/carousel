@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Carousel</title>
+  </head>
+  <body>
+    <main>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="slides fade">
+          <div class="numbertext">1 / 6</div>
+          <img src="./images/2009_bmw_f_650_gs-1920x1200.jpg" style="width: 100%" />
+          <div class="text">2009 BMW F650</div>
+        </div>
+
+        <div class="slides fade">
+          <div class="numbertext">2 / 6</div>
+          <img src="./images/bmw_k_1200_r_2008_green-1920x1200.jpg" style="width: 100%" />
+          <div class="text">BMW K2008</div>
+        </div>
+
+        <div class="slides fade">
+          <div class="numbertext">3 / 6</div>
+          <img src="./images/bmw_k_1300_s-1920x1200.jpg" style="width: 100%" />
+          <div class="text">BMW K1300</div>
+        </div>
+
+        <div class="slides fade">
+          <div class="numbertext">4 / 6</div>
+          <img src="./images/bmw_r_1200-1920x1080.jpg" style="width: 100%" />
+          <div class="text">BMW R1200</div>
+        </div>
+
+        <div class="slides fade">
+          <div class="numbertext">5 / 6</div>
+          <img src="./images/honda_hannspree-1920x1080.jpg" style="width: 100%" />
+          <div class="text">HONDA Hannspree</div>
+        </div>
+
+        <div class="slides fade">
+          <div class="numbertext">6 / 6</div>
+          <img src="./images/2010_bmw_s1000_rr-1280x1024.jpg" style="width: 100%; height: 60%;" />
+          <div class="text">BMW S1000</div>
+        </div>
+
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+      </div>
+    </main>
+
+    <footer>
+      Made with <span class="heart">&hearts;</span> by <a href="https://www.github.com/Imhandegbelo" target="_blank" rel="noopener">George Imhandegbelo</a> 
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
